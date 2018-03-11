@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SpaceAtlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 95a13a3f171e63f4c8f93d977ffc136f, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0bd853078c6f63c4f8509049161f50ed, type: 3}
+  - {fileID: 21300000, guid: cd31e1dafaa18fb43b039bf5658bbf8e, type: 3}
+  - {fileID: 21300000, guid: e4ab773f71497a740a39e6f91e403fbe, type: 3}
+  - {fileID: 21300000, guid: c39f7cd1e4fbac64ea78f754f37259ba, type: 3}
+  - {fileID: 21300000, guid: eda2d1a3c6492b24eaf415d31874bd31, type: 3}
+  - {fileID: 21300000, guid: 79411c7637a821147a758be102ce0f20, type: 3}
+  - {fileID: 21300000, guid: 3c3af3db6f64d2544964abd29857951b, type: 3}
+  - {fileID: 21300000, guid: 3db6393809f0dc54e85a57d6a7b7184d, type: 3}
+  - {fileID: 21300000, guid: c9aeef7563d0d7247ab6fc8800e9c12f, type: 3}
+  - {fileID: 21300000, guid: 24a26110a4cfdfa498147b65580d54b3, type: 3}
+  - {fileID: 21300000, guid: 88db803ab28f5b94a88bb9c91de4c527, type: 3}
+  - {fileID: 21300000, guid: 109af5329e2c76d4fa98a385a23b5245, type: 3}
+  - {fileID: 21300000, guid: 22deda525440f4943a8879d3e21fedc6, type: 3}
+  - {fileID: 21300000, guid: 032f296bd54f97340ac9389d0d4916b4, type: 3}
+  - {fileID: 21300000, guid: 7a0d5a73ea2cded4a8066ec55e58a5bd, type: 3}
+  - {fileID: 21300000, guid: 88cd6f1353c59484bb1d91364a2bfae0, type: 3}
+  - {fileID: 21300000, guid: f34444427c6e7dd4eb87380c2c3a2e1c, type: 3}
+  - {fileID: 21300000, guid: 1dc6e15f7a0cf17439f6fa9fa3f665c8, type: 3}
+  - {fileID: 21300000, guid: 8a078c438b32b0f47b692d11a0016a67, type: 3}
+  - {fileID: 21300000, guid: e78f00f378f807c44b6ad670291bef71, type: 3}
+  - {fileID: 21300000, guid: f31943ad54151cb42b2df45774baef46, type: 3}
+  - {fileID: 21300000, guid: 1a7143a25f510a546a042cfccbcf8965, type: 3}
+  - {fileID: 21300000, guid: cbe5ab764b0bbd146a78bad27a865363, type: 3}
+  - {fileID: 21300000, guid: f8091917d4aef8b44bef4fef167c0bfb, type: 3}
+  - {fileID: 21300000, guid: 793db80f031bc4a48b5bef94d1d88e60, type: 3}
+  - {fileID: 21300000, guid: 0b904cb058f343241babd11d0a9b1125, type: 3}
+  - {fileID: 21300000, guid: 30c4e29b61a23f0468ad1d7905da529f, type: 3}
+  - {fileID: 21300000, guid: 31b477f365d92fb43adfcf6b0c5949a1, type: 3}
+  - {fileID: 21300000, guid: 26531092decbaf84d9c7f0bedcb3897a, type: 3}
+  - {fileID: 21300000, guid: 1e787f183fea4ad4b9dc54a646e99f31, type: 3}
+  - {fileID: 21300000, guid: 308975fd6ef641644a4bb6f10d43be68, type: 3}
+  - {fileID: 21300000, guid: cbe05d8f1da32ad49b44d9fe0a09f505, type: 3}
+  - {fileID: 21300000, guid: 9b5cbe1f9be57ac4d8255889c180242f, type: 3}
+  - {fileID: 21300000, guid: e248928c0466d3141a9860dc760bbc2a, type: 3}
+  - {fileID: 21300000, guid: 5e9b1aa05aef5ea4c80499cd21421087, type: 3}
+  - {fileID: 21300000, guid: 76ac39648bd93634696ee1ac8fda67f1, type: 3}
+  - {fileID: 21300000, guid: a66e010599e976d4e94d20dd909998bf, type: 3}
+  - {fileID: 21300000, guid: 548e984a69f285b48b59f2237980c323, type: 3}
+  - {fileID: 21300000, guid: 214fceedab458784ab388750555b8d34, type: 3}
+  - {fileID: 21300000, guid: 7f7e0cc39e129364fa6334ea032a5c3e, type: 3}
+  - {fileID: 21300000, guid: a30db993d4ca0794fa735ee2516989d6, type: 3}
+  - {fileID: 21300000, guid: ab63c3e400c6e1f48a305c72d9d09ddd, type: 3}
+  - {fileID: 21300000, guid: f3a2e13df882db34787d5bba880e5345, type: 3}
+  - {fileID: 21300000, guid: 619cfb4b2c93c9d4bb712844cbb22f72, type: 3}
+  - {fileID: 21300000, guid: ea592ff2870510b40b83febb754e3bcc, type: 3}
+  - {fileID: 21300000, guid: 7a6c6af45d2332e4a85791a550da12f7, type: 3}
+  - {fileID: 21300000, guid: 35a8ab4828b7d2542be74f73430f1f83, type: 3}
+  - {fileID: 21300000, guid: 53d2d1345763e0c41813dd95159b06f0, type: 3}
+  - {fileID: 21300000, guid: 2403f63b1203d43439387bb0058b062c, type: 3}
+  - {fileID: 21300000, guid: 666da5e8c352d2444b66504fa1db73a4, type: 3}
+  - {fileID: 21300000, guid: cfe6fe46df2bde64286776d4f9aaed61, type: 3}
+  - {fileID: 21300000, guid: cdfaff18ea2ef444080bb061cc053312, type: 3}
+  - {fileID: 21300000, guid: a451d63bbb067224fa29b88f0e7a2d22, type: 3}
+  - {fileID: 21300000, guid: 95a0292b54c74c74bbce86d771676856, type: 3}
+  - {fileID: 21300000, guid: 1525c34116d977b478fb3a1ffc1ad507, type: 3}
+  - {fileID: 21300000, guid: 4c783a31ff05abe46936c1b5402d5e7c, type: 3}
+  - {fileID: 21300000, guid: c3139b281ef89124e879b1ced43e0eeb, type: 3}
+  - {fileID: 21300000, guid: 3ab829d843009b14a88789ffb66de401, type: 3}
+  - {fileID: 21300000, guid: 3734f3117052cb2498275667ec2d0637, type: 3}
+  - {fileID: 21300000, guid: c34b3b7bb5eb6724fb089d1a2565a54c, type: 3}
+  - {fileID: 21300000, guid: 81d07192b0e3d90468623a6e0c168e34, type: 3}
+  - {fileID: 21300000, guid: 02f308c7f2ffa564e9bffc26470fdb5e, type: 3}
+  - {fileID: 21300000, guid: 67eb259ea4830804e9558218ff24f82d, type: 3}
+  - {fileID: 21300000, guid: c6c4a490f0ea21743898a44c542eeb1a, type: 3}
+  - {fileID: 21300000, guid: 8c1e3d9a445e0444c9f9e234825e3662, type: 3}
+  - {fileID: 21300000, guid: acfa9ba44201df04b8ff7359e5035326, type: 3}
+  - {fileID: 21300000, guid: 1db6fa5751f40d64ab4b4e392c452c89, type: 3}
+  - {fileID: 21300000, guid: b4b27f45a3ca436478f6b35a8db30585, type: 3}
+  - {fileID: 21300000, guid: b6d2aaa344c09384ea0ba656a97c3a02, type: 3}
+  - {fileID: 21300000, guid: 6c4ec68026f47394dbd2996a81cfde08, type: 3}
+  - {fileID: 21300000, guid: 4c862cb8fb2209b4ba564ae4a527dcae, type: 3}
+  - {fileID: 21300000, guid: f8e3b14665f0ec74dad99ea5814f2156, type: 3}
+  - {fileID: 21300000, guid: 6ad602ff7c9e1eb4aa8d276175fd4ec3, type: 3}
+  - {fileID: 21300000, guid: dfdbaa78edebd314f99f156092e3c90d, type: 3}
+  - {fileID: 21300000, guid: accf46f4b3c4bbc4db690860b55ff22a, type: 3}
+  - {fileID: 21300000, guid: db73edd163c10ea4981bb21415fcf1e1, type: 3}
+  - {fileID: 21300000, guid: 1ff5a9dabea93f6499f38c43f8370948, type: 3}
+  - {fileID: 21300000, guid: 72fd1f54c60c1d245bf59b2f72e2b7bc, type: 3}
+  - {fileID: 21300000, guid: 98c8ba35a381d7542bcaa72c2492447a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - glassPanel_tab
+  - glassPanel_cornerBL
+  - metalPanel
+  - glassPanel_cornerBR
+  - metalPanel_yellow
+  - metalPanel_blueCorner
+  - metalPanel_green
+  - glassPanel
+  - glassPanel_projection
+  - metalPanel_blue
+  - metalPanel_redCorner
+  - glassPanel_corners
+  - metalPanel_yellowCorner
+  - metalPanel_red
+  - glassPanel_cornerTR
+  - metalPanel_greenCorner
+  - glassPanel_cornerTL
+  - metalPanel_plate
+  - crossair_whiteOutline
+  - crossair_blackOutline
+  - crossair_redOutline
+  - crossair_blueOutline
+  - crossair_white
+  - crossair_blue
+  - crossair_black
+  - crossair_red
+  - cursor_hand
+  - dotWhite
+  - dotRed
+  - dotBlue
+  - dotYellow
+  - dot_shadow
+  - dotGreen
+  - cursor_pointerFlat_shadow
+  - cursor_pointer3D_shadow
+  - squareRed
+  - squareBlue
+  - square_shadow
+  - squareWhite
+  - squareGreen
+  - squareYellow
+  - cursor_pointer3D
+  - cursor_pointerFlat
+  - barHorizontal_green_mid
+  - barHorizontal_yellow_mid
+  - barHorizontal_blue_mid
+  - barVertical_blue_mid
+  - barHorizontal_white_mid
+  - barVertical_red_mid
+  - barVertical_white_mid
+  - barVertical_shadow_mid
+  - barHorizontal_shadow_mid
+  - barVertical_yellow_mid
+  - barHorizontal_red_mid
+  - barVertical_green_mid
+  - barHorizontal_blue_left
+  - barVertical_blue_top
+  - barHorizontal_white_left
+  - barVertical_white_bottom
+  - barHorizontal_shadow_left
+  - barHorizontal_shadow_right
+  - barHorizontal_green_right
+  - barHorizontal_blue_right
+  - barHorizontal_green_left
+  - barVertical_green_top
+  - barHorizontal_yellow_left
+  - barHorizontal_yellow_right
+  - barVertical_yellow_bottom
+  - barVertical_shadow_top
+  - barHorizontal_red_left
+  - barVertical_yellow_top
+  - barHorizontal_white_right
+  - barVertical_red_top
+  - barVertical_blue_bottom
+  - barVertical_green_bottom
+  - barHorizontal_red_right
+  - barVertical_shadow_bottom
+  - barVertical_red_bottom
+  - barVertical_white_top
+  m_Tag: SpaceAtlas
+  m_IsVariant: 0
