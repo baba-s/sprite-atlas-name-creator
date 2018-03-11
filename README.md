@@ -122,7 +122,6 @@ You can get sprites more intuitively.
 
 # Install
 
-1. 下記のページにアクセスして「SpriteAtlasNameCreator.unitypackage」をダウンロードします  
 1. Go to the following page and download "SpriteAtlasNameCreator.unitypackage".  
 https://github.com/baba-s/sprite-atlas-name-creator/blob/master/SpriteAtlasNameCreator.unitypackage?raw=true
 2. Import the downloaded "SpriteAtlasNameCreator.unitypackage" into the Unity project.  
