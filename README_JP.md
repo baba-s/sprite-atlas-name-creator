@@ -1,12 +1,11 @@
-[日本語の Readme はこちら](https://github.com/baba-s/sprite-atlas-name-creator/blob/master/README_JP.md)  
-
 # SpriteAtlasNameCreator
 
-Editor extension to create a class that can get sprite included in SpriteAtlas by property instead of string.
+「SpriteAtlasNameCreator」は、SpriteAtlas に含まれるスプライトを、  
+文字列指定ではなくプロパティ経由で取得できるクラスを自動生成するエディタ拡張です  
 
-# Feature
+# できること
 
-## Get a sprite at properties.
+## 文字列指定ではなくプロパティ経由でスプライトを取得
 
 ```cs
 public class Example : MonoBehaviour
@@ -21,10 +20,10 @@ public class Example : MonoBehaviour
 }
 ```
 
-For example, if you want to set a sprite included in SpriteAtlas to Image.sprite,  
-We use SpriteAtlas.GetSprite( "hoge" ),  
-Since this method specifies the sprite name as a character string,  
-There is a problem of mistyping the input of the sprite name.  
+例えば、SpriteAtlas に含まれるスプライトを Image.sprite に設定したい場合、  
+SpriteAtlas.GetSprite( "hoge" ) を使用しますが、  
+この方法は、スプライト名を文字列で指定するため、  
+スプライト名の入力をミスしてしまう問題があります  
 
 ```cs
 public class Example : MonoBehaviour
@@ -39,11 +38,12 @@ public class Example : MonoBehaviour
 }
 ```
 
-By creating a dedicated class using "SpriteAtlasNameCreator",  
-As mention above, you can get sprites as properties,  
-It is possible to prevent mistyping of sprite name.  
+「SpriteAtlasNameCreator」を使用して専用のクラス  
+（この例では「CommonAtlas」クラス）を自動生成することで  
+上記のように文字列指定ではなくプロパティ経由でスプライトを取得できるようになり  
+スプライト名の入力ミスを防ぐことができます  
 
-## Acquire a sprite by format specification.
+## 書式指定でスプライトを取得
 
 ```cs
 public class Example : MonoBehaviour
@@ -59,8 +59,8 @@ public class Example : MonoBehaviour
 }
 ```
 
-For example, If you want to change sprites with PARAM_TYPE, 
-Although it may be described as above,  
+例えば、PARAM_TYPE という列挙型の値によって、  
+使用するスプライトを変更したい場合、上記のように記述することがありますが、  
 
 ```cs
 public class Example : MonoBehaviour
@@ -75,9 +75,9 @@ public class Example : MonoBehaviour
 }
 ```
 
-You can also get a sprite like this way.  
+このように、書式指定できる関数を使用してスプライトを取得することも可能です  
 
-## Extend functionality with partial class.
+## partial クラスを定義して独自の機能を拡張
 
 ```cs
 [Serializable]
@@ -87,7 +87,7 @@ public partial class CommonAtlas : AtlasBase
 }
 ```
 
-Since the created class is a partial class,  
+「SpriteAtlasNameCreator」を使用して生成されるクラスは partial クラスなので  
 
 ```cs
 public partial class CommonAtlas : AtlasBase
@@ -99,7 +99,7 @@ public partial class CommonAtlas : AtlasBase
 }
 ```
 
-By defining frequently used relationships in another file,  
+よく使う関数を別のファイルで定義することで  
 
 ```cs
 public class Example : MonoBehaviour
@@ -114,32 +114,32 @@ public class Example : MonoBehaviour
 }
 ```
 
-You can get sprites more intuitively.  
+より直感的に SpriteAtlas からスプライトを取得できるようになります  
 
-# Version
+# 開発環境
 
 - Unity 2017.3.0f3
 
-# Install
+# 導入方法
 
 1. 下記のページにアクセスして「SpriteAtlasNameCreator.unitypackage」をダウンロードします  
-1. Go to the following page and download "SpriteAtlasNameCreator.unitypackage".  
 https://github.com/baba-s/sprite-atlas-name-creator/blob/master/SpriteAtlasNameCreator.unitypackage?raw=true
-2. Import the downloaded "SpriteAtlasNameCreator.unitypackage" into the Unity project.  
+2. ダウンロードした「SpriteAtlasNameCreator.unitypackage」をUnity プロジェクトにインポートします  
 
-# Usage
+# 使い方
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20180311/20180311164028.png)
 
-As mentioned above, if SpriteAtlas exists in the Unity project,  
+例えば、上記のように「CommonAtlas」「SpaceAtlas」という  
+2つの SpriteAtlas が Unity プロジェクトに存在する場合に、  
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20180311/20180311164104.png)
 
-When you select "Kogane > Create > Sprite Atlas Name" in the Unity menu,  
+Unity メニューの「Kogane>Create>Sprite Atlas Name」を選択すると  
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20180311/20180311164128.png)
 
-A file "SpriteAtlasName" is created,   
+「SpriteAtlasName」というファイルが作成され、  
 
 ```cs
 using System;
@@ -203,8 +203,11 @@ namespace KoganeUnityLib.UI
 }
 ```
 
-Such a class is defined.  
-Then, For example, if you want to use a "CommonAtlas" class to obtain a sprite,  
+このような、SpriteAtlas を包含し、  
+各スプライトを返すプロパティを持つクラスが定義されます  
+
+そして、例えば「CommonAtlas」クラスを使用して、  
+SpriteAtlas からプロパティ経由でスプライトを取得したい場合、  
 
 ```cs
 using KoganeUnityLib.UI;
@@ -223,9 +226,9 @@ public class Example : MonoBehaviour
 }
 ```
 
-By defining such a class,  
-Attach to the game object of the scene,  
+このようなクラスを定義して、シーンのゲームオブジェクトにアタッチして、  
 
 ![](https://cdn-ak.f.st-hatena.com/images/fotolife/b/baba_s/20180311/20180311164840.png)
 
-Set SpriteAtlas with Inspector.  
+Inspector で「CommonAtlas」の欄に SpriteAtlas を設定します  
+以上が、「SpriteAtlasNameCreator」の基本的な使い方になります  
