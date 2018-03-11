@@ -122,11 +122,9 @@ public class Example : MonoBehaviour
 
 # 導入方法
 
-1. 下記のページにアクセスして  
-「SpriteAtlasNameCreator.unitypackage」をダウンロードします  
+1. 下記のページにアクセスして「SpriteAtlasNameCreator.unitypackage」をダウンロードします  
 https://github.com/baba-s/sprite-atlas-name-creator/blob/master/SpriteAtlasNameCreator.unitypackage?raw=true
-2. ダウンロードした「SpriteAtlasNameCreator.unitypackage」を  
-Unity プロジェクトにインポートします  
+2. ダウンロードした「SpriteAtlasNameCreator.unitypackage」をUnity プロジェクトにインポートします  
 
 # 使い方
 
