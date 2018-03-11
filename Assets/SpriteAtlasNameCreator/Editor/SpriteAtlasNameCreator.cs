@@ -22,9 +22,6 @@ namespace KoganeUnityLib
 			public string Argument  { get { return m_argument   ; } }
 			public string Arg0      { get { return m_arg0       ; } }
 
-			/// <summary>
-			/// コンストラクタ
-			/// </summary>
 			public FormatData( int count, string name, string label )
 			{
 				m_format = name;
